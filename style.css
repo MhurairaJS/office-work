@@ -14,7 +14,7 @@ body {
 }
 
 .upper-text {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     text-align: center;
     line-height: 2;
@@ -26,12 +26,9 @@ body {
 .banner-main {
     width: 100%;
     height: 100%;
-}
-.navbar{
-    display: grid;
-    grid-template-columns: auto-fit, minmax(360,1150);
-}
+    /* background-image: url(https://c8.alamy.com/comp/DYDFR9/colourful-display-of-paperback-books-in-a-bookshop-window-DYDFR9.jpg); */
 
+}
 .nav-logo {
     width: 158.75px;
 }
@@ -50,6 +47,7 @@ body {
     border: 1px solid #F84A50;
     box-shadow: 0px 0px 9.4px 0px rgba(0, 0, 0, 0.25);
     text-transform: capitalize;
+    font-family: "Montserrat", serif;
     color: white;
     cursor: pointer;
 }
@@ -85,6 +83,95 @@ body {
     border: 1px solid #F84A50;
     box-shadow: 0px 0px 9.4px 0px rgba(0, 0, 0, 0.25);
     text-transform: capitalize;
+    font-family: "Montserrat", serif;
     color: white;
     cursor: pointer;
+}
+.content-1{
+    background-color: #854b4d;
+    width: 30%;
+}
+.content-1 h1{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.content-1 p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    color: #6c757d;
+}
+.content-1-bt1{
+    margin-top: 2rem;
+    padding: 17px 34px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: #F84A50;
+    border: 1px solid #F84A50;
+    color: #ffffff;
+}
+.content-1-bt2{
+    padding: 17px 25px;
+    margin-left: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid #6c757d;
+    background: transparent;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 415px) {
+
+    .upper-text {
+        width: 100vw;
+        line-height: 2;
+        font-weight: 500;
+        background-color: #dc3545;
+        color: white;
+    }
+    .nav-logo {
+        width: 158.75px;
+    }
+    .navbar {
+    column-gap: 3rem;
+}   
+
 }
