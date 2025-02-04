@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", serif;
+}
+
+.upper-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 2;
+    font-weight: 500;
+    background-color: #dc3545;
+    color: white;
+}
+
+.banner-main {
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: auto-fit, minmax(360,1150);
+}
+
+.nav-logo {
+    width: 158.75px;
+}
+
+.nav-bt {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-bt1 {
+    font-size: 1.1rem;
+    padding: 16px 24px;
+    border-radius: 10px 10px 10px 0px;
+    background: #F84A50;
+    border: 1px solid #F84A50;
+    box-shadow: 0px 0px 9.4px 0px rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-bt1 i {
+    border-radius: 50px;
+    padding: 3px;
+    border: 1px solid white;
+    margin-left: 5px;
+
+}
+
+.nav-bt2 i {
+    border-radius: 50px;
+    padding: 3px;
+    border: 1px solid white;
+    margin-left: 5px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40rem;
+}
+
+.nav-bt2 {
+    font-size: 1.1rem;
+    padding: 16px 24px;
+    border-radius: 10px 10px 10px 0px;
+    background: #F84A50;
+    border: 1px solid #F84A50;
+    box-shadow: 0px 0px 9.4px 0px rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+}
